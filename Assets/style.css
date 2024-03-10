@@ -1,15 +1,4 @@
 /* CSS Stle Sheet */
-/* :root {
-    --primary-color: #5d0303;
-    --background-color: #5d0303;
-    --text-color: #907e52;
-    --header-height: 100vh;
-    
-} */
-
-*, *::before, *::after {
-    box-sizing: border-box;
-}
 
 html {
     font-size: 110%;
@@ -19,42 +8,52 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:#5d0303;
+    
 }
 
+body {
+    background-color:#0a0404;
+}
 header {
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 100%;
+    padding: 40px 10%;
+    background:#10381e;
     display: flex;
-    justify-content:space-between;
-    align-items: end;
-    padding: 20px 10%;
-    text-align:left;
-    background: transparent;
-    color: #907e52;
-    z-index: 100;
-    font-size: x-large;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+
+.header-content {
+    background: linear-gradient
+    position: absolute;
 }
 
 .navbar a {
-    font-size: 80 px;
-    color: #fffffe;
-    font-weight: 500;
-    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: rgb(243, 235, 235);
+    font-weight: 400;
+    margin-right: 20px;
     text-decoration: none;
     transition: .3s;
 }
 
 .navbar a:hover {
-    color: #7be1f3 ;
+    color: #bebc44 ;
 }
 
 .about {
     height: 50vh;
     font-weight: 50px;
-    color: #907e52;
+    color: #c7a54e;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -64,27 +63,10 @@ header {
 
 }
 
-.my-work {
-    height: 7vh;
-    font-weight: 50px;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 16px;
-    align-items: left;
-    margin-inline-start: 0px;
-    color:#907e52;
-}
 
-.contact a {
-    height: 7vh;
-    font-weight: 50px;
-    display: flex;
-    justify-self: space-around;
-    color: #907e52;
-    margin-left: 40px;
-    text-decoration: none;
 
-}
+
+
 
 
 
