@@ -1,0 +1,41 @@
+/* CSS Stle Sheet */
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri, serif, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+    padding: 20px 10%;
+    text-align:left;
+    background-color:black;
+    color:cyan;
+    z-index: 100;
+    font-size: x-large;
+}
+
+.navbar a {
+    font-size: 80 px;
+    color:orange;
+    font-weight: 900;
+    margin-left: 40px;
+    text-decoration: none;
+    transition:.3s;
+}
+
+.navbar a:hover {
+    color: maroon;
+}
+
+
+
+
+
