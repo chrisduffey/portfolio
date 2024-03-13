@@ -1,10 +1,12 @@
 /* CSS Stle Sheet */
+/* general  */
 * {
     padding: 0;
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+/* background  */
 .hero {
     height: 100%;
     width: 100%;
@@ -12,16 +14,15 @@
     background-size: cover;
     background-position: center;
 }
+/* nav bar */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 30px;
-    padding-left: 4%;
-    padding-bottom: 4%;
-    padding-right: 4%;
-    
+    padding: 30px 4% 4% 4%;
+      
 }
+/* my name */
 .logo {
     color: cyan;
     font-size: 300%;
@@ -29,62 +30,140 @@ nav {
     letter-spacing: 1px;
 
 }
+/* Change color of last name */
 span {
     color: orange;
 }
+/* details for nav links */
 nav ul li {
     display: inline-block;
     text-decoration: none;
     padding: 15px;
 }
+/* nav text */
 nav ul li a {
     color: whitesmoke;
     text-decoration: none;
     font-weight: bolder;
     
 }
+/* color change when hover over nav links */
 nav ul li a:hover {
     color: blueviolet;
     transition: .3s;
 }
+/* About Me */
 h3 {
     color: cyan;
     display: flex;
     justify-content: flex-start;
-    padding-left: 10%;
+    padding-left: 0%;
     font-weight: bold;
     font-size: 25px;
+    margin: 0 auto;
 }
-img {
+/* pic of c. duffey */
+/* img {
     position: static;
     margin-left: 150px;
+    flex-direction: column;
+} */
+.about .L-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+/* about me section */
 section p {
     display: flexbox;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
+    font-weight: 900;
     flex-wrap: wrap;
-    justify-content: center;
+    padding: 5px;
     letter-spacing: 1px;
     font-size: 120%;
     margin-top: 10px;
-    margin-left: 50%;
+    color: #fff;
+    
+}
+/* Portfolio */
+/* h3, h4, h5 {
     color: cyan;
-    border-left: 20px ;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-left: 10%;
+    text-align: center; */
 }
 h4 {
-    color: cyan;
-    display: flex;
-    justify-content: flex-start;
     margin-top: 200px;
-    font-size: 25px;
-    padding-left: 10%;
 }
+/* contact */
 h5 {
-    color: cyan;
-    display: flex;
-    justify-content: flex-start;
     margin-top: 300px;
-    font-size: 25px;
-    padding-left: 10%;
+    
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.L-side {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 23%;
+    border-right: white 3px solid;
+    text-align: center;
+    padding-right: 20px;
+
+}
+.r-side {
+    flex-basis: 77%;
+    padding-left: 10px;
+}
+.Portfolio .r-side {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Portfolio .r-side a {
+    border: 3px solid white;
+    height: 180px;
+    margin: 0.5em; 
+    flex-basis: calc(50% - 1em); 
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    font-size: 0.9rem;  
+}
+.Portfolio .r-side a:hover {
+    color: transparent;
+    transition: .3s;
+}
+.Portfolio .r-side a div {
+    padding: 8px 10px;
+    height: 50px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    
+}
+.Portfolio .r-side a:first-child {
+    min-height: 320px;
+    flex-basis: 100%;
+}
+.code-refactor {
+    background-image: url(../Images/mockup-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tbd {
+    background-image: url(../Images/coming\ soon.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+
 }
