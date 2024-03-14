@@ -33,7 +33,7 @@ nav {
 }
 /* Change color of last name */
 span {
-    color: orange;
+    color: #f4af2d;
 }
 /* details for nav links */
 nav ul li {
@@ -46,6 +46,7 @@ nav ul li a {
     color: whitesmoke;
     text-decoration: none;
     font-weight: bolder;
+    font-size: 25px;
     
 }
 /* color change when hover over nav links */
@@ -58,9 +59,10 @@ h3 {
     color: cyan;
     display: flex;
     justify-content: flex-start;
-    padding-top: 40%;
+    padding-top: 5%;
+    padding-bottom: 30%;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 40px;
     margin: 0 auto;
 
 }
@@ -81,40 +83,29 @@ section p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 25px;
     letter-spacing: 1px;
-    font-size: 120%;
+    font-size: 200%;
     margin-top: 10px;
-    color: #fff;
+    color: #f4af2d;
 }
-    
 
-/* Portfolio */
-/* h3, h4, h5 {
-    color: cyan;
-    display: flex;
-    justify-content: flex-start;
-    font-size: 35px;
-    padding-top: 30px;
-    padding-left: 10%;
-    text-align: center; */
-
-
-h4 {
-    
-    margin-top: 100px;
-}
 /* contact */
 h5 {
     display: flex;
-    margin-top: 150px;
-    justify:center
+    margin-top: 50px;
+    
+
     
 }
 section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.about div {
+    height: 40vh;
+
 }
 
 .L-side {
@@ -123,7 +114,9 @@ section {
     flex-basis: 23%;
     border-right: white 3px solid;
     text-align: center;
-    padding-right: 20px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 
 }
 .r-side {
@@ -144,7 +137,8 @@ section {
     align-items: flex-end;
     padding-bottom: 20px;
     font-size: 0.9rem;  
-    color: cyan;
+    color: #f4af2d;
+    text-decoration: none;
     
 }
 .Portfolio .r-side a:hover {
@@ -153,14 +147,14 @@ section {
 }
 .Portfolio .r-side a div {
     padding: 8px 10px;
-    /* height: 50px; */
     width: 80px;
     background-color: transparent;
-    color: cyan;
+    font-weight: 800;
+    font-size: 25px;
     z-index: 100;
 }
 .Portfolio .r-side a:first-child {
-    min-height: 320px;
+    min-height: 420px;
     flex-basis: 100%;
 }
 .code-refactor {
@@ -175,25 +169,31 @@ section {
 }
 
 .right-side {
-    flex-basis: 77%;
-    padding: 10px;  
+    flex-basis: 70%;
+      
 }
 
 .Contact .right-side  {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    color: cyan;
-    height: 200vh;
+    justify-content: space-around;
+    color: #f4af2d;
+    align-self:center ;
+    font-size: 32px;
 }
+
 .Contact .right-side a div {
-    border: 3px solid white;
+    /* border: 3px solid white; */
     height: 180px;
     margin: 0.5em; 
     flex-basis: calc(50% - 1em); 
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     padding-bottom: 20px;
     font-size: 0.9rem;  
-    color: cyan;
+    
 }
+
+
+
