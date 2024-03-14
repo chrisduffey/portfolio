@@ -14,6 +14,7 @@
     background-size: cover;
     background-position: center;
 }
+
 /* nav bar */
 nav {
     display: flex;
@@ -57,15 +58,16 @@ h3 {
     color: cyan;
     display: flex;
     justify-content: flex-start;
-    padding-left: 0%;
+    padding-top: 40%;
     font-weight: bold;
     font-size: 25px;
     margin: 0 auto;
+
 }
 /* pic of c. duffey */
 /* img {
     position: static;
-    margin-left: 150px;
+    margin-left: 10px;
     flex-direction: column;
 } */
 .about .L-side {
@@ -84,8 +86,9 @@ section p {
     font-size: 120%;
     margin-top: 10px;
     color: #fff;
-    
 }
+    
+
 /* Portfolio */
 /* h3, h4, h5 {
     color: cyan;
@@ -95,13 +98,17 @@ section p {
     padding-top: 30px;
     padding-left: 10%;
     text-align: center; */
-}
+
+
 h4 {
-    margin-top: 200px;
+    
+    margin-top: 100px;
 }
 /* contact */
 h5 {
-    margin-top: 300px;
+    display: flex;
+    margin-top: 150px;
+    justify:center
     
 }
 section {
@@ -137,6 +144,8 @@ section {
     align-items: flex-end;
     padding-bottom: 20px;
     font-size: 0.9rem;  
+    color: cyan;
+    
 }
 .Portfolio .r-side a:hover {
     color: transparent;
@@ -144,11 +153,11 @@ section {
 }
 .Portfolio .r-side a div {
     padding: 8px 10px;
-    height: 50px;
+    /* height: 50px; */
     width: 80px;
-    background-color: white;
-    color: black;
-    
+    background-color: transparent;
+    color: cyan;
+    z-index: 100;
 }
 .Portfolio .r-side a:first-child {
     min-height: 320px;
@@ -163,7 +172,28 @@ section {
     background-image: url(../Images/coming\ soon.jpg);
     background-size: cover;
     background-position: center;
+}
 
-    
+.right-side {
+    flex-basis: 77%;
+    padding: 10px;  
+}
 
+.Contact .right-side  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: cyan;
+    height: 200vh;
+}
+.Contact .right-side a div {
+    border: 3px solid white;
+    height: 180px;
+    margin: 0.5em; 
+    flex-basis: calc(50% - 1em); 
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    font-size: 0.9rem;  
+    color: cyan;
 }
