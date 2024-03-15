@@ -32,4 +32,4 @@ Description: What we leared
 
 ## Mock-Up
 
-(<C:\Users\chris\Desktop\bootcamp\repos\portfolio-\Images\port-mock.png>)
+(<images/port-mock.png/>)
