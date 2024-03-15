@@ -66,12 +66,8 @@ h3 {
     margin: 0 auto;
 
 }
-/* pic of c. duffey */
-/* img {
-    position: static;
-    margin-left: 10px;
-    flex-direction: column;
-} */
+
+
 #about .l-side {
     display: flex;
     flex-direction: column;
@@ -102,10 +98,9 @@ section p {
 h5 {
     display: flex;
     margin-top: 50px;
-    
-
-    
+   
 }
+
 section {
     display: flex;
     flex-direction: row;
@@ -205,4 +200,35 @@ section {
 }
 
 
+#contact div a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 400px;
+    color: #f4af2d;
+    height: 700px
+}
+
+@media screen and (max-width: 768px) {
+    #about {
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 50%;
+    }
+    }
+
+@media screen and (max-width: 768px) {
+    #portfolio {
+        flex-direction: column;
+    }
+    
+}
+ 
+@media screen and (max-width: 768px) {
+    #contact a {
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+}
 
