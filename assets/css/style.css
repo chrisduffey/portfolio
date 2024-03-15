@@ -162,12 +162,12 @@ section {
     flex-basis: 100%;
 }
 .code-refactor {
-    background-image: url(../Images/mockup-img.png);
+    background-image: url(../images/mockup-img.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .tbd {
-    background-image: url(../Images/coming\ soon.jpg);
+    background-image: url(../images/coming\ soon.jpg);
     background-size: cover;
     background-position: center;
 }
