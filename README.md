@@ -26,7 +26,14 @@ Description: What we leared
 
 ## Usage
 <!-- link to git hub pages -->
+<!-- Github page - For some reason having issues and it wont bring in css -->
+(https://chrisduffey.github.io/portfolio/)
 
+Repository URL
+https://github.com/chrisduffey/portfolio
+
+Page URL
+(http://127.0.0.1:5500/repos/portfolio-/index.html)
 
 
 

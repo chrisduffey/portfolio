@@ -10,7 +10,7 @@
 .hero {
     height: 100%;
     width: 100%;
-    background-image: url(/repos/portfolio-/Images/back\ 3.jpg);
+    background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
 }
