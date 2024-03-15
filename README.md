@@ -39,5 +39,5 @@ Page URL
 
 ## Mock-Up
 
-(../portfolio-/assets/images/port-mock.png)
+![alt text](../portfolio-/assets/images/port-mock.png)
 
