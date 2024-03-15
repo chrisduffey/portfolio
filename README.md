@@ -38,6 +38,7 @@ Page URL
 
 
 ## Mock-Up
+Mock up display
+(![alt text](assets/images/port-mock.png))
 
-![alt text](../portfolio-/assets/images/port-mock.png)
 
